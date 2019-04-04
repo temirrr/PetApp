@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">Temirrr</string>
-    <string name="text_button_label_enabled">Get random cat fact</string>
+    <string name="text_button_label_enabled">Get random dog picture</string>
 </resources>
