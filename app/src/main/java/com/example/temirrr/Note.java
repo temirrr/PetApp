@@ -18,6 +18,7 @@ public class Note {
 
     private int priority;
 
+    //constructor is needed for <Note> object for us and "Room" to be able to recreate objects
     public Note(String title, String petType, String description, int priority) {
         this.title = title;
         this.petType = petType;
@@ -25,6 +26,7 @@ public class Note {
         this.priority = priority;
     }
 
+    //setter is needed for auto-generated IDs
     public void setId(int id) {
         this.id = id;
     }
